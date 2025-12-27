@@ -1,0 +1,46 @@
+
+.header_nav{
+    background-color: var(--text-color);
+}
+.header_img{
+    margin: 0 auto;
+}
+
+.header_nav_ul{
+    display: flex;
+    justify-content: center;
+    padding: 23px 50px 24px 50px;
+    margin: 0 auto;
+}
+.header_nav_ul p{
+    color: white;
+}
+.header_nav_ul_location{
+    margin-right: 126px;
+}
+.header_nav_ul_phone{
+    margin-right: 169px;
+}
+.header_nav_ul_logo{
+    color: white;
+    margin-right: 70px;
+}
+.header_nav_ul_social{
+    margin-right: 16px;
+}
+.header_nav_ul_btn{
+    background-color:var(--button-color);
+    color: white;
+    width: 156px;
+    height: 32px;
+    border-radius: 16px;
+    border: none;
+    margin-top: 8px;
+}
+.header_nav_ul_btn:hover{
+    background-color: var(--button-color-hover);
+}
+.header_nav_ul_hint{
+    color: #A0AEB7;
+    font-size: 13px;
+}

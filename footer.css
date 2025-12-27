@@ -1,0 +1,99 @@
+:root{
+    --button-color: #E92B43;
+    --button-color-hover: #f61500;
+    --text-color: #123D4B;
+    --genre-color: #727276;
+    --genre-bacground: #F2F2F5;
+    --color-hall: #4C4C4F;
+    --color-text: #A0AEB7;
+    --color-bacground: #0C3542;
+}
+
+
+.footer_info{
+    margin-top: 100px;
+    background-color: #123D4B;
+}
+.footer_info_container{
+    display: flex;
+    padding: 24px 0 30px 50px;
+}
+.footer_info_email{
+    color: white;
+    font-size: 16px;
+    margin-right: 173px;
+}
+.footer_info_chart{
+    color: white;
+    font-size: 16px;
+}
+.footer_info_phone{
+    color: white;
+    font-size: 16px;
+    margin-right: 167px;
+}
+.footer_info_image{
+    margin-right: 167px;
+}
+.footer_info_text{
+    font-size: 13px;
+    color: var(--color-text);
+}
+.footer_main_menu{
+    padding: 28px 0 41px 50px;
+    color: white;
+}
+.footer_main_text{
+    color: var(--color-text);
+}
+.footer_main_title{
+    margin-bottom: 17px;
+}
+.footer_main_transfer{
+    color: white;
+    margin: 28px 0 54px 522px;
+}
+.footer_main_blog{
+    display: flex;
+}
+.footer_main_info{
+    margin-top: 168px;
+    color: var(--color-text);
+}
+
+
+hr{
+    background-color: var(--color-text);
+    width: 1240px;
+    height: 1px;
+    opacity: 0.3;
+}
+.footer_icons{
+    display: flex;
+}
+.footer_icons_image{
+    margin: 19px 0 23px 51px;
+}
+.footer_icons_text{
+    color: #A0AEB7;
+    margin: 27px 49px 31px 752px;
+}
+
+.card_button{
+    background-color: var(--button-color);
+    color: white;
+    width: 152px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+.card_button:hover{
+    background-color: var(--button-color-hover);
+}
+.footer_main_transfer_image{
+    display: flex;
+}
+.footer_main_transfer_image_first{
+    margin-right: 22px;
+}
